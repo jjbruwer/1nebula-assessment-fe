@@ -53,7 +53,7 @@ Given the below code snippet, solve the problems that follow:
         background: green;
     }
     div:nth-child(1) {
-        background: #FF69B4;
+        background: #FF69B4; /* I prefer hex above named fix colour values. */
     }
 
     .red-card {
