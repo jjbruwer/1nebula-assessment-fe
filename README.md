@@ -35,8 +35,8 @@ Given the below code snippet, solve the problems that follow:
 
 ## Answer 1
 
-1. Since non of the divs are closed, only the last div's colour would show, thus orange.
-2. How would you dynamically target ```firstDiv``` and make it's colour pink? (provide the code snippet)
+1.1. Since non of the divs are closed, only the last div's colour would show, thus orange.
+1.2. 
 ```html
 <!-- Front-end Code Challenges -->
 <div id="firstDiv" class="red-card"></div>
@@ -65,7 +65,8 @@ Given the below code snippet, solve the problems that follow:
     }
 </style>
 ```
-3. How would you dynamically target ```secondDiv``` and add the ```yellow-card``` class to its class list? (provide the code snippet)
+1.3. 
+
 
 ## Question 2
 Consider the ```compareIt``` function definition
@@ -82,7 +83,8 @@ compareIt(5, "5");
 2. How could one change this function so that data types are checked as well as values?
 
 ## Answer 2
-
+1.1. The two values would be treated the same. One is a string and the other is a number.
+1.2.
 ..
 
 ## Question 3
