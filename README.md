@@ -84,6 +84,7 @@ compareIt(5, "5");
 
 ## Answer 2
 1.1. The two values would be treated the same. One is a string and the other is a number.
+
 1.2. 
 ```javascript
 function compareIt(num1, num2) {
@@ -101,5 +102,10 @@ console.log(compareIt(5, "5")); // This will return false
 4. What should be done to ensure browser compatibility with newer flavours of JavaScript like ES6/7?
 
 ## Answer 3
-
-..
+3.1. 
+3.2. 
+- Smaller file size by condense code(removing space, comments and line breaks.
+- For improved load speeds on server requests.
+- Files are merged into one js file, less server requests.
+3.3. 
+3.4. 
