@@ -35,7 +35,37 @@ Given the below code snippet, solve the problems that follow:
 
 ## Answer 1
 
-..
+1. Since non of the divs are closed, only the last div's colour would show, thus orange.
+2. How would you dynamically target ```firstDiv``` and make it's colour pink? (provide the code snippet)
+```html
+<!-- Front-end Code Challenges -->
+<div id="firstDiv" class="red-card"></div>
+<div id="secondDiv" class="red-card"></div>
+
+<style>
+    #secondDiv {
+        background: orange;
+    }
+
+    div {
+        height: 150px;
+        width: 150px;
+        background: green;
+    }
+    div:nth-child(1) {
+        background: #FF69B4;
+    }
+
+    .red-card {
+        background: red;
+    }
+
+    .yellow-card {
+        background: yellow;
+    }
+</style>
+```
+3. How would you dynamically target ```secondDiv``` and add the ```yellow-card``` class to its class list? (provide the code snippet)
 
 ## Question 2
 Consider the ```compareIt``` function definition
