@@ -259,6 +259,9 @@ console.log(compareIt(5, "5"));  // Output: false
 </html>
 
  ```
+- Browser Compatibility - Evaluate your website across different browsers to pinpoint and resolve any compatibility issues.
+- Performance Optimization: Reduce the utilization of large images and avoid unnecessary scripts that might impede the loading speed on mobile devices.
+- Mobile-First Approach: From design to final development version, start by designing for mobile screens and then progressively enhance the design for larger screens using media queries.
 ## 
 
 3.2. 
