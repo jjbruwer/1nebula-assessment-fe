@@ -272,6 +272,10 @@ console.log(compareIt(5, "5"));  // Output: false
 ## 
   
 3.3.
+- Install a Sass compiler
+- Populate the stylesheet with SASS code
+- Compile it on run-time, built into frameworks like Angular
+- Then make sure you are pointing to the stylesheet
 
 ## 
   
