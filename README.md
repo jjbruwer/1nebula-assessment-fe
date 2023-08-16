@@ -86,7 +86,59 @@ Given the below code snippet, solve the problems that follow:
 ```
 
 1.3. 
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>A 1Nebula assessment for the Front-End</title>
+  <meta name="description" content="A 1Nebula assessment for the Front-End">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript">
+    #secondDiv {
+        background: orange;
+    }
+
+    div {
+        height: 150px;
+        width: 150px;
+        background: green;
+    }
+    div:nth-child(1) {
+        background: #FF69B4; /* I prefer hex above named fix colour values. */
+    }
+
+    .red-card {
+        background: red;
+    }
+
+    .yellow-card {
+        background: yellow;
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Front-end Code Challenges -->
+  <div id="firstDiv" class="red-card"></div>
+  <div id="secondDiv" class="red-card"></div>
+
+
+<script type="text/javascript">
+  var el = document.getElementById("secondDiv");
+
+  el.classList.remove("red-card");
+  el.classList.add("yellow-card");
+</script>
+</body>
+</html>
+```
 
 ## Question 2
 Consider the ```compareIt``` function definition
