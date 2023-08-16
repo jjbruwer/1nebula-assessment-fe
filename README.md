@@ -36,6 +36,7 @@ Given the below code snippet, solve the problems that follow:
 ## Answer 1
 
 1.1. Since non of the divs are closed, only the last div's colour would show, thus orange.
+
 1.2. 
 ```html
 <!-- Front-end Code Challenges -->
