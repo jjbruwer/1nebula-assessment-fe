@@ -55,9 +55,6 @@ Given the below code snippet, solve the problems that follow:
     #secondDiv {
         background: orange;
     }
-    #secondDiv {
-        background: orange;
-    }
 
     div {
         height: 150px;
