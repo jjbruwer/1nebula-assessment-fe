@@ -85,15 +85,6 @@ compareIt(5, "5");
 ## Answer 2
 1.1. The two values would be treated the same. One is a string and the other is a number.
 
-
-```javascript
-function compareIt(num1, num2) {
-    return num1 === num2;
-}
-
-console.log(compareIt(5, "5")); // This will return false
-```
-
 1.2. 
 ```javascript
 function compareIt(num1, num2) {
