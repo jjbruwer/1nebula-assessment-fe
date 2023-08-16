@@ -39,10 +39,22 @@ Given the below code snippet, solve the problems that follow:
 1.2. 
 ```html
 <!-- Front-end Code Challenges -->
-<div id="firstDiv" class="red-card"></div>
-<div id="secondDiv" class="red-card"></div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
+  <title>A 1Nebula assessment for the Front-End</title>
+  <meta name="description" content="A 1Nebula assessment for the Front-End">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript">
+    #secondDiv {
+        background: orange;
+    }
     #secondDiv {
         background: orange;
     }
@@ -63,7 +75,17 @@ Given the below code snippet, solve the problems that follow:
     .yellow-card {
         background: yellow;
     }
-</style>
+  </script>
+
+</head>
+
+<body>
+  <!-- Front-end Code Challenges -->
+  <div id="firstDiv" class="red-card"></div>
+  <div id="secondDiv" class="red-card"></div>
+
+</body>
+</html>
 ```
 
 1.3. 
