@@ -183,6 +183,12 @@ console.log(compareIt(5, "5"));  // Output: false
 
 ## Answer 3
 3.1. 
+- Viewport Meta Tag:
+  
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ ```
+- 
 
 ## 
 
