@@ -95,7 +95,13 @@ console.log(compareIt(5, "5")); // This will return false
 ```
 
 1.2. 
+```javascript
+function compareIt(num1, num2) {
+    return num1 === num2;
+}
 
+console.log(compareIt(5, "5"));  // Output: false
+```
 
 
 ## Question 3
